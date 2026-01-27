@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        h1{
+            color: rgb(217, 15, 217);
+        }
+        body{
+            color: rgb(39, 112, 105);
+        }
+        body{
+            background-color: rgb(247, 252, 151);
+        }
+        #content{
+            background-color: rgb(115, 28, 201);
+        }
+        </style>
+    </head>
+    <body>
+       
+        <h1>Adina's Recipe Book</h1>
+        
+        <h2 id="content">Contents:</h2>
+        
+        <ol>
+            <li><a href="#first">Recipe #1</a></li>
+            <li><a href="#second">Recipe #2</a></li>
+            <li><a href="#third">Recipe #3</a></li>
+        </ol>
+        
+        <h2 id="first">Recipe #1</h2>
+        <h2 id="second">Recipe #2</h2>
+        <h2 id="third">Recipe #3</h2>
+        
+        <ul>
+            <li>Time: 40</li>
+            <li>Serves: 6</li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Eggs</td>
+                <td>3</td>
+            </tr>
+             <tr>
+                <td>Milk</td>
+                <td>400 ml</td>
+            </tr>
+             <tr>
+                <td>Sugar</td>
+                <td>220 g</td>
+            </tr>
+             <tr>
+                <td>Flour</td>
+                <td>500 g</td>
+            </tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Step 1:</strong> Mix eggs with sugar.<br> 
+        <strong>Step 2:</strong> Add milk. <br>
+        <strong>Step 3:</strong> Mix it with flour. <br>
+        <strong>Step 4:</strong> Bake at 180 C for 30 minutes
+</p>
+        
+    <p><em>Source: <a href="https://www.russianfood.com/recipes/recipe.php?rid=139003">Some recipes websites</a></em></p>
+    
+    </body>
+</html>

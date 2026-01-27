@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Links for learning</title>
+    </head>
+    <body>
+        
+        <h1>Links for learning</h1>
+        
+        
+        
+        <ul>
+            <li><a href="https://youtu.be/x-intkblWlo?si=NjhOtQGJJ90cVxSU">Python</a></li>
+            <li><a href="https://youtu.be/4201gKyNeII?si=-CL802x8w1pJuehf">Music for study</a></li>
+            <li><a href="https://youtu.be/LPZh9BOjkQs?si=CEE_OxAk5lja8Fao">Since</a></li>
+        </ul>
+        <a href="https://www.khanacademy.org">
+        <img src="https://www.kasandbox.org/programming-images/cute/Heart.png">
+        <br>image heart
+        </a>
+        
+    </body>
+</html>

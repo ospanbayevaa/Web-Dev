@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+        
+        #where{
+            background-color: rgb(209, 134, 209);
+        }
+        #who{
+            background-color: rgb(245, 44, 245);
+        }
+        h1{
+            color: rgb(20, 12, 242);
+        }
+        h2{
+            color: rgb(0, 89, 27);
+        }
+        body{
+        background-color: rgb(146, 223, 232);
+        }
+        .first{
+            background-color: rgb(148, 166, 247);
+        }
+        </style>
+    </head>
+    <body>
+    
+        <h1>Travel to ....</h1>
+        <h2>If you don't know where to travel, then you must read this website</h2>
+        <p><strong class="first">First things first</strong> think about where you'd like to spend time and <em>with whom</em></p>
+        
+        <h3 id="where" >Where to?</h3>
+        <ul>
+            <li>Turkey</li>
+            <li>Egypt</li>
+            <li>Thailand</li>
+            <li>Malasia</li>
+        </ul>
+        
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-in-hawaii.png"alt="landscape" width="300">
+        
+        <h3 id="who">With whom?</h3>
+        <ol>
+            <li>Family</li>
+            <li>Friends</li>
+            <li>Boyfriend/Girlfriend</li>
+        </ol>
+        
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/beach-waves-daytime.png" alt="beach" width="300">
+        
+    </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Blog</title>
+        <style>
+            body{
+                font-family: arial, sans-erif;
+                font-style: italic;
+                font-weight: bold;
+                background-color: rgb(235, 195, 235);
+            }
+            h1{
+                text-align: center;
+                font-family:"Georgia", serif;
+                font-size: 3em;
+            }
+            h2{
+                background-color: rgb(138, 152, 230);
+            }
+            p{
+                font-family:fantasy;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1>Adina's blog</h1>
+
+        <h3>Contents</h3>
+        <ul>
+            <li><a href="#first">First post!</a></li>
+            <li><a href="#second">Second post!</a></li>
+            <li><a href="#tird">Third post!</a></li>
+        </ul>
+        <div class="post">
+        <h2 id="first">First post</h2>
+        <h6>Posted on some date in some year</h6>
+        
+        <p>I entered university to major in IT. I am learning a lot of new things, there are difficulties, but I can handle them!</p>
+        </div>
+        
+        <div class="post">
+        <h2 id="second">Second post</h2>
+        <p>Today I started learning HTML and CSS.  
+                I learned how to create headings, paragraphs, and links.  
+                It feels exciting to build my first web page!</p>
+            
+        </div>
+        
+        <div class="post">
+        <h2 id="third">Third post</h2>
+        <p> This week I practiced CSS styling.  
+                I learned how to change fonts, colors, and spacing.  
+                Step by step, I feel more confident as a future programmer.</p>
+        
+        </div>
+        
+        
+    </body>
+</html>

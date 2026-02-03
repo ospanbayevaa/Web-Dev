@@ -1,0 +1,184 @@
+body{
+
+margin: 0;
+
+font-family: Arial, sans-serif;
+
+background-color: #fff;
+
+display:flex;
+
+flex-direction: column;
+
+min-height: 100vh;
+
+}
+
+.inst-logo {
+  width: 120px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.image-stack {
+  margin-top: 40px;
+}
+
+.image-stack img {
+  width: 650px;
+}
+
+.stories {
+gap: 10px;
+width: 450px;
+margin-top: 20px;
+
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  min-height: calc(100vh - 80px); /* чтобы футер был снизу */
+}
+
+.right {
+  border-left: 1px solid #dbdbdb;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+
+.left{
+  max-width: none;
+  flex: 1;
+  padding: 80px;
+  position: relative;
+}
+
+.left h1 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: 140px;
+}
+
+
+
+.left span{
+background: linear-gradient(to right, orange, red, purple);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    display: inline;
+
+}
+
+
+.login-box {
+  width:100%;
+  max-width: 450px;
+  border: none;
+  background: none;
+  text-align: center;
+}
+
+.login-box h2{
+    margin-bottom: 20px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  border: 1px solid #dbdbdb;
+  background: #fafafa;
+  font-size: 14px;
+}
+
+
+
+.login {
+  width: 100%;
+  padding: 10px;
+  background: #0095f6;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.forgot {
+  display: block;
+  margin: 15px 0;
+  font-size: 12px;
+  color: #00376b;
+  text-decoration: none;
+}
+
+
+.fb-login {
+
+width: 100%;
+
+padding: 10px;
+
+border: 1px solid #dbdbdb;
+
+background: none;
+
+border-radius: 20px;
+
+}
+
+
+
+.create {
+width: 100%;
+margin-top: 10px;
+padding: 10px;
+border: 1px solid #0095f6;
+background: none;
+color: #0095f6;
+border-radius: 20px;
+}
+
+.meta {
+margin-top: 15px;
+font-size: 12px;
+color: gray;
+}
+
+
+.footer {
+    border-top: 1px solid lightgray;
+    padding: 20px;
+    color: gray;
+    text-decoration: None;
+    font-size: 12px;
+    text-align: center;
+}
+.footer a{
+    color: gray;
+    text-decoration: None;
+    margin: 8px;
+    font-size: 12px;
+}
+.footer-links {
+    margin: 10px;
+}
+
+.fb-login:hover {
+  background: #fafafa;
+}
+
+.create:hover {
+  background: #fafafa;
+}
